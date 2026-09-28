@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitória">
+    <meta name="keywords" content="Flamengo, títulos, Libertadores, Brasileirão, Copa do Brasil, Mundial">
+    <meta name="description" content="Os principais títulos do Flamengo: Libertadores, Mundial, Brasileirão e Copa do Brasil.">
+    <title>Flamengo | Títulos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sala de troféus</h1>
+        <p>As principais conquistas do Rubro-Negro.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="titulos.html">Títulos</a></li>
+            <li><a href="idolos.html">Ídolos</a></li>
+            <li><a href="final-2019.html">Final de 2019</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>A temporada de 2025</h2>
+            <p>Em 2025 o Flamengo ganhou a Libertadores e o Brasileirão com apenas quatro dias de diferença. Veja as duas finais:</p>
+
+            <!--
+                Aqui eu tive dificuldade com o rowspan. Na primeira tentativa eu coloquei
+                o ano "2025" nas duas linhas e também o rowspan, e a tabela ficou com
+                uma coluna a mais sobrando na última linha. Depois entendi que, quando
+                uma célula ocupa duas linhas, a linha de baixo precisa ter uma célula a menos.
+                Também queria centralizar a tabela na página, mas como o trabalho não
+                permite align nem CSS, deixei ela no alinhamento padrão.
+            -->
+            <table>
+                <caption>Finais vencidas pelo Flamengo em 2025</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Ano</th>
+                        <th scope="col">Competição</th>
+                        <th scope="col">Jogo do título</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">2025</th>
+                        <td><abbr title="Confederação Sul-Americana de Futebol">CONMEBOL</abbr> Libertadores</td>
+                        <td>Palmeiras 0 x 1 Flamengo, em Lima (29/11)</td>
+                    </tr>
+                    <tr>
+                        <td>Campeonato Brasileiro</td>
+                        <td>Flamengo 1 x 0 Ceará, no Maracanã (03/12)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>O gol da final da Libertadores foi do zagueiro Danilo, de cabeça, no segundo tempo. Com essa vitória o Flamengo virou o <mark>primeiro brasileiro tetracampeão da América</mark>.</p>
+        </section>
+
+        <section>
+            <h2>Números do Brasileirão 2025</h2>
+
+            <article>
+                <h3>Aproveitamento</h3>
+                <p>O Flamengo terminou o campeonato com 79 pontos, de 114 possíveis, em 38 jogos.</p>
+                <p>
+                    <label for="aproveitamento">Pontos conquistados:</label>
+                    <meter id="aproveitamento" min="0" max="114" low="50" high="75" optimum="114" value="79">79 de 114 pontos</meter>
+                    79 de 114 (cerca de 69%)
+                </p>
+                <p>Foram 23 vitórias, 10 empates e 5 derrotas, com 78 gols marcados e apenas 27 sofridos. A maior goleada do campeonato também foi rubro-negra: 8 a 0 no Vitória.</p>
+            </article>
+
+            <article>
+                <h3>Rumo ao penta da Libertadores</h3>
+                <p>
+                    <label for="penta">Libertadores conquistadas até agora:</label>
+                    <progress id="penta" max="5" value="4">4 de 5</progress>
+                    4 de 5
+                </p>
+                <p>Os títulos vieram em 1981, 2019, 2022 e 2025. A torcida já sonha com o quinto.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Galeria de conquistas</h2>
+
+            <figure>
+                <img src="../img/taca-libertadores.jpg" alt="Foto de um jogador do Flamengo comemorando com a taça da Copa Libertadores" width="360">
+                <figcaption>A taça da Libertadores, levantada pelo Flamengo pela quarta vez em 2025.</figcaption>
+            </figure>
+
+            <ul>
+                <li><strong>Libertadores:</strong> <del>3 títulos</del> <ins>4 títulos</ins> (1981, 2019, 2022 e 2025)</li>
+                <li><strong>Mundial Interclubes:</strong> 1 título (1981, contra o Liverpool)</li>
+                <li><strong>Campeonato Brasileiro:</strong> 8 títulos reconhecidos pela <abbr title="Confederação Brasileira de Futebol">CBF</abbr> (1980, 1982, 1983, 1992, 2009, 2019, 2020 e 2025) — o clube também considera seu o título de 1987</li>
+                <li><strong>Copa do Brasil:</strong> 5 títulos (1990, 2006, 2013, 2022 e 2024)</li>
+            </ul>
+
+            <details>
+                <summary>Por que existe discussão sobre o título de 1987?</summary>
+                <p>Em 1987 o Flamengo ganhou a Copa União, mas houve um cruzamento com outro módulo do campeonato e o Sport também foi declarado campeão. A disputa foi parar na Justiça, e oficialmente a CBF reconhece o Sport como campeão daquele ano.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Curiosidade</h2>
+        <p>Com o título de 2025, o Brasil empatou com a Argentina como o país com mais conquistas da Libertadores: 25 para cada lado.</p>
+    </aside>
+
+    <footer>
+        <p>Prova de Israel</p>
+        <p><a href="../index.html">Voltar para o início</a></p>
+    </footer>
+
+</body>
+</html>

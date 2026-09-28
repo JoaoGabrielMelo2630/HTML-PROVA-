@@ -1,0 +1,4 @@
+O vídeo deste projeto é do YouTube e está incorporado na página inicial (index.html) com a tag iframe:
+https://youtu.be/LhyOlpEGLLo
+
+O arquivo de mídia local do projeto é o áudio que está na pasta audio/.
